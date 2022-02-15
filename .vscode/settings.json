@@ -1,0 +1,15 @@
+{
+  "window.zoomLevel": 0,
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "workbench.colorCustomizations": {
+    "titleBar.activeForeground": "#fff",
+    "titleBar.inactiveForeground": "#a8a8a8cc",
+    "titleBar.activeBackground": "#0c014b",
+    "titleBar.inactiveBackground": "#0c014b"
+  }
+}

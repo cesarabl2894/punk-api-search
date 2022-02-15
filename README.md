@@ -1,8 +1,24 @@
-# Getting Started with Create React App
+# Punk API Search
+Basic Search that allows to search for drinks according to keyword, and user can access to Product Details.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project 
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). and [React Router](https://reactrouter.com/) for Routing
+
+
+
+## Technologies Stack:
+
+- React
+- React Router V5
+- Bootstrap V5 for styling
+- Punk API 
+
+> *Node Version Required: ^V12.18.0*
 
 ## Available Scripts
+
+This project was build with Create React Script
 
 In the project directory, you can run:
 
