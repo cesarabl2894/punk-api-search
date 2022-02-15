@@ -8,7 +8,7 @@ const SearchBar = ({ inputHandler, currentValue = '' }) => {
         <input
           type="text"
           className="form-control form-input"
-          placeholder="Enter your search..."
+          placeholder="Enter the beer Name..."
           onChange={inputHandler}
           value={currentValue}
         />
