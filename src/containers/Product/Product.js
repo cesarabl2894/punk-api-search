@@ -13,6 +13,13 @@ const Product = () => {
   const [isLoading, setLoading] = useState(true);
   const { id } = useParams();
 
+  const scrollTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+
   // Fetch Initial Product and update when URL ID change
   useEffect(() => {
     async function getProduct() {
@@ -27,6 +34,7 @@ const Product = () => {
       }
     }
     getProduct();
+    scrollTop();
   }, [id, setProduct]);
 
   return (
